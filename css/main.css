@@ -11,7 +11,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   max-width: none;
-  min-width: 608px;
+  min-width: 704px;
 
 }
 
@@ -128,15 +128,14 @@ h6:hover {
 }
 
 .intro {
+  display: inline-block;
   text-align: center;
   position: absolute;
   bottom: 7.5rem;
   color: white;
   font-family: 'Ceviche One', cursive;
-  text-align: center;
-  left: 3.5rem;
-  margin: 0;
-  right: 2em;
+  margin: 0 1 0;
+
 }
 
 .intro:hover {
@@ -263,20 +262,20 @@ footer {
 }
 
 .twitter {
-  width: 10%;
-  float: left;
+  width: 30%;
+  display: inline-block;
 
 }
 
 .facebook {
-  width: 10%;
-  float: left;
+  width: 30%;
+  display: inline-block;
 
 }
 
 .youtube {
-  width: 10%;
-  float: left;;
+  width: 30%;
+  display: inline-block;
 }
 
 .here {
@@ -288,7 +287,12 @@ footer {
   padding: .1em;
   color: red;
   border-radius: .5em;
+}
 
+.map {
+  display: inline-block;
+  width: 25%;
+  margin: 0 0 0;
 }
 
 .contact {
@@ -316,7 +320,7 @@ footer {
 }
 
 .people {
-  width: 15%;
+  width: 25%;
 }
 
 a {
@@ -329,11 +333,6 @@ a:hover {
   color: white;
 }
 
-.icons {
-  float: left;
-  border: 3px solid #595F63;
-  padding: 0.5em;
-}
 
 .about {
   font-family: 'Ropa Sans', sans-serif;
@@ -345,4 +344,46 @@ a:hover {
   padding: 1.5em;
   border-radius: .5em;
   font-size: 1.2em;
+}
+
+.nevigation {
+  display: inline-block;
+  width: 25%;
+  margin: 0 0 0;
+}
+
+.icons {
+  display: inline-block;
+  border: 3px solid #595F63;
+  padding: 0.5em;
+  width: 25%;
+  margin: 0 0 0;
+}
+
+.jobs {
+  display: inline-block;
+  margin: 0 0 0;
+}
+
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  h1,
+  p {
+    margin: 0 0 1.5rem;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 130%;
+  }
+
 }
