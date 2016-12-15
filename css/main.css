@@ -21,7 +21,7 @@ html {
 
 img {
   display: block;
-  width: 30%;
+  width: 100%;
 
 }
 
@@ -199,29 +199,39 @@ header {
 }
 
 .frist {
-  float: left;
-  margin: .5rem 0 0;
-}
-
-.cake {
-  text-align: left;
+  margin: 0 1 0;
+  width: 25%;
+  display: inline-block;
 }
 
 .plant {
-  float: left;
-  margin: .5rem 0 0;
+  margin: 0 3 0;
+  width: 25%;
+  display: inline-block;
+}
+
+.elegant {
+  margin: 0 0 0;
+  width: 25%;
+  display: inline-block;
 }
 
 .brownies {
-  float: left;
+  display: inline-block;
+  width: 25%;
+  margin: 0 1 0;
 }
 
 .lab {
-  float: left;
+  display: inline-block;
+  margin: 0 1 0;
+  width: 25%;
 }
 
 .fudge {
-  width: 20%;
+  display: inline-block;
+  width: 25%;
+  margin: 0 0 0;
 }
 
 .hawalil {
@@ -250,16 +260,18 @@ footer {
 .twitter {
   width: 10%;
   float: left;
+
 }
 
 .facebook {
   width: 10%;
   float: left;
+
 }
 
 .youtube {
   width: 10%;
-  float: left;
+  float: left;;
 }
 
 .here {
