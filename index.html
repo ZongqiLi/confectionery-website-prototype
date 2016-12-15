@@ -4,65 +4,93 @@
   <meta charset="utf-8">
   <title>Coco’s Chocolatiers</title>
   <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Molle:400i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ceviche+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Freckle+Face" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Yellowtail" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ropa+Sans" rel="stylesheet">
   <meta name="viewport" content="width=device-width,initial-scale=1">
 </head>
 <body>
   <header>
-    <li><a href="#">Join us</a></li>
+    <ul class="join"><a href="#">Join us</a></ul>
     <h1 class="title">Coco’s Chocolatiers</h1>
-    <li><a href="#">In cart</a></li>
-    <img class="img-flex" src="images/placeholder-3by1.svg" alt="">
+    <ul class="cart"><a href="#">In cart</a></ul>
+    <img class="img-flex" src="images/Blog-il-Buco-Alimentari-Chocolates-copy.jpg" alt="">
     <span class="intro">
       <h2>Welcome to the Coco's world!</h2>
-      <p>Sugarcube Chocolate and Coffee
+      <p class="sub">Sugarcube Chocolate and Coffee
 [Artisan Desserts, 3D Chocolates.]</p>
-      <p class="delivery-time">Delivery within 30-50 min·Open Now <a href="#">(View Available Hours)</a></p>
+      <p class="delivery-time">Delivery within 30-50 min·Open Now <a href="http://www.google.com">(View Available Hours)</a></p>
     </span>
-    <img class="menu" src="images/placeholder-3by1.svg" alt="">
-    <h2><a class="menu-button" href="#">Today's Menu</a></h2>
+    <section>
+      <img class="menu" src="images/landscape_1424367156-16-chocrasp-asweetmuddle.jpg" alt="">
+      <h2><a class="menu-button" href="#">Today's Menu</a></h2>
+    </section>
   </header>
 </body>
   <main>
 
     <h3>Today's Special</h3>
     <ul class="special">
-      <li><img src="images/placeholder-1by1.svg" alt=""></li>
-      <li><img src="images/placeholder-1by1.svg" alt=""></li>
-      <li><img src="images/placeholder-1by1.svg" alt=""></li>
+      <figure>
+        <img class="frist" src="images/Molten-Chocolate-Cakes1.jpg" alt=""><figcaption class="cake">Chocolate Molten Cakes $39.99</figcaption></figure>
+        <figure>
+        <img class="plant" src="images/an-nyc-cafe-serves-a-dessert-that-looks-like-a-potted-plant.jpg" alt=""><figcaption>Potted Chocolate Plants $59.99</figcaption></figure>
+        <figure>
+          <img src="images/chocolate-dessert-wallpaper-4.jpg" alt=""><figcaption>Elegant Chocolate Dessert $49.99</figcaption></figure>
+        <img src="images/chocolate-dessert-recipes-wallpaper-2.jpg" alt=""><figcaption>New Year Chocolate Cupcakes $39.99</figcaption></figure>
     </ul>
     <h4>Popular</h4>
     <ul class="popular">
-      <li><img src="images/placeholder-1by1.svg" alt=""></li>
-      <li><img src="images/placeholder-1by1.svg" alt=""></li>
-      <li><img src="images/placeholder-1by1.svg" alt=""></li>
+      <figure><img src="images/323055-R3L8T8D-650-188.jpg" alt="">
+        <figcaption>Chocolate brownies $45.99</figcaption>
+      </figure>
+      <figure><img src="images/323555-R3L8T8D-650-Amandin_Blogdereceptes_Mugcake.jpg" alt="">
+        <figcaption>Chocolate Lab’s Lab Cake $30.99</figcaption>
+      </figure>
+      <figure><img src="images/323955-R3L8T8D-650-easy-dairy-free-fudge-02.jpg" alt="">
+        <figcaption>Chocolate fudge $39.99</figcaption>
+      </figure>
     </ul>
     <h5>Dessert</h5>
     <ul class="dessert">
-      <li><img src="images/placeholder-1by1.svg" alt=""></li>
-      <li><img src="images/placeholder-1by1.svg" alt=""></li>
-      <li><img src="images/placeholder-1by1.svg" alt=""></li>
+      <figure><img src="images/ono-pops-chocolate.jpg" alt="">
+        <figcaption>Hawaili Chocolate $15.99</figcaption>
+      </figure>
+      <figure><img src="images/8842554d66a92357ef4e924af3d7c4bd.jpg" alt="">
+        <figcaption>Mississippi Mud Madness $30.99</figcaption>
+      </figure>
+      <figure><img src="images/chocolate-chocolate-cake-chocolate-dessert-delicious-chocolate-Favim.com-765704.jpg" alt="">
+        <figcaption>CHOCOLATE DESSERT Bar $10.99</figcaption>
+      </figure>
+
     </ul>
   </main>
-  <aside>
+  <footer>
     <section>
       <h6>About us</h6>
-      <p></p>
+      <p class="about">Coco's Chocolatiers, called “one of the most exciting Chocolatiers in the country” by bon appétit magazine, is a culinary empire and lifestyle brand founded by award-winning pastry chef and masterchef judge christina tosi. christina focuses on putting a playful spin on familiar home-style desserts and savory snacks using quality ingredients and locally sourced dairy. </p>
     </section>
     <div class="navigation">
-      <p><a href="#">How to get here</a></p>
-      <img src="images/person-square.svg" alt="">
+      <p><a class="here" href="#">How to get here</a></p>
+      <img src="images/Screen Shot 2016-12-11 at 7.31.47 PM.png" alt="">
     </div>
-  </aside>
-  <footer>
-    <span class="contact">
-      <p>contact</p>
-      <img src="" alt="">
-      <img src="" alt="">
-      <img src="" alt="">
+      <p><a class="contact" href="#">contact</a></p>
+    <span class="icons">
+      <img class="twitter" src="images/43-twitter-512 copy.png" alt="">
+      <img class="facebook" src="images/facebook4xxl.png" alt="">
+      <img class="youtube" src="images/youtube-icon2.png" alt="">
     </span>
-    <span class="job">
-      <p><a href="#">job</a></p>
-      <img src="images/people-3by2.svg" alt="">
+    <span>
+      <p><a class="job" href="#">job</a></p>
+      <img class="people" src="images/people-3by2.svg" alt="">
     </span>
   </footer>
 
