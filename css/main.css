@@ -135,6 +135,7 @@ h2:hover {
   text-align: center;
   left: 3.5rem;
   margin: 0;
+  right: 2em;
 }
 
 .intro:hover {
@@ -179,6 +180,7 @@ header {
   position: absolute;;
   display: inline-block;
   bottom: 0;
+  right: 3.5em;
 }
 
 .frist {
@@ -195,6 +197,30 @@ header {
   margin: .5rem 0 0;
 }
 
+.brownies {
+  float: left;
+}
+
+.lab {
+  float: left;
+}
+
+.fudge {
+  width: 20%;
+}
+
+.hawalil {
+  float: left;
+}
+
+.mud {
+  float: left;
+  width: 25%;
+}
+
+.bar {
+  width: 24%
+}
 
 section {
   display: block;
