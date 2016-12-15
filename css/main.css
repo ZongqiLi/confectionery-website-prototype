@@ -27,7 +27,7 @@ img {
 
 body {
   border-bottom: 1px solid black;
-  background-color: #919FA8;
+  background-color: black;
 }
 
 main {
@@ -116,14 +116,14 @@ h6:hover {
 
 }
 
-h2 {
-  font-size: 4.1rem;
+.welcome {
+  font-size: 4.2rem;
   color: #BEED61;
   margin: 0;
   text-align: center;
 }
 
-h2:hover {
+.welcome:hover {
   color: red;
 }
 
@@ -178,6 +178,7 @@ header {
 
 .menu-button {
   font-family: 'Permanent Marker', cursive;
+  font-size: 3em;
   position: absolute;;
   display: inline-block;
   bottom: 0;
