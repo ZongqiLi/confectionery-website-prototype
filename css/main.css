@@ -186,6 +186,10 @@ header {
   text-decoration: none;
 }
 
+.special {
+  border: 5px solid;
+}
+
 .frist {
   float: left;
   margin: .5rem 0 0;
