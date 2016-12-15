@@ -11,7 +11,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
   max-width: none;
-  min-width: 610px;
+  min-width: 608px;
 
 }
 
@@ -62,7 +62,7 @@ article {
   margin: 0;
   position: absolute;
   right: 0;
-
+  text-decoration: none;
 }
 
 .join {
@@ -73,6 +73,7 @@ article {
   margin: 0;
   position: absolute;
   left: 0;
+  text-decoration: none;
 }
 
 figcaption {
@@ -181,6 +182,7 @@ header {
   display: inline-block;
   bottom: 0;
   right: 3.5em;
+  text-decoration: none;
 }
 
 .frist {
@@ -312,4 +314,5 @@ a:hover {
   border: 5px solid #4988A1;
   padding: 1.5em;
   border-radius: .5em;
+  font-size: 1.2em;
 }
