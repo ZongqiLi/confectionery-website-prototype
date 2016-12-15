@@ -187,11 +187,15 @@ header {
 }
 
 .special {
-  border: 5px solid;
+  border: 8px solid;
 }
 
 .popular {
-  border: 5px solid;
+  border: 8px solid;
+}
+
+.dessert {
+  border: 8px solid;
 }
 
 .frist {
