@@ -119,6 +119,7 @@ h6:hover {
   color: #BEED61;
   margin: 0;
   text-align: center;
+  display: none;
 }
 
 .welcome:hover {
@@ -132,7 +133,7 @@ h6:hover {
   bottom: 7.5rem;
   color: white;
   font-family: 'Ceviche One', cursive;
-  margin: 8.5em;
+  margin: 8.9em;
 }
 
 .intro:hover {
@@ -382,7 +383,11 @@ a:hover {
   }
 
   .welcome {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
+    display: inline-block;
+    color: #BEED61;
+    margin: 0;
+    text-align: center;
   }
 
   .sub {
