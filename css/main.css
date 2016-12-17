@@ -41,9 +41,9 @@ article {
 
 .title {
   color: #dd925f;
-  font-family: 'Freckle Face', cursive;
+  font-family: "Freckle Face", cursive;
   font-size: 5rem;
-  margin: 0.2rem;
+  margin: .2rem;
   text-align: center;
 }
 
@@ -55,7 +55,7 @@ article {
 .cart {
   display: inline-block;
   padding-right: 0;
-  font-family: 'Luckiest Guy', cursive;
+  font-family: "Luckiest Guy", cursive;
   top: 0;
   margin: 0;
   position: absolute;
@@ -66,7 +66,7 @@ article {
 .join {
   display: block;
   padding: 0;
-  font-family: 'Luckiest Guy', cursive;
+  font-family: "Luckiest Guy", cursive;
   top: 0;
   margin: 0;
   position: absolute;
@@ -76,30 +76,30 @@ article {
 
 figcaption {
   color: #73675f;
-  font-family: 'Luckiest Guy', cursive;
+  font-family: "Luckiest Guy", cursive;
 }
 
 h3 {
   color: #4988a1;
-  font-family: 'Luckiest Guy', cursive;
+  font-family: "Luckiest Guy", cursive;
   font-size: 1.5rem;
 }
 
 h4 {
   color: #4988a1;
-  font-family: 'Luckiest Guy', cursive;
+  font-family: "Luckiest Guy", cursive;
   font-size: 1.5rem;
 }
 
 h5 {
   color: #4988a1;
-  font-family: 'Luckiest Guy', cursive;
+  font-family: "Luckiest Guy", cursive;
   font-size: 1.5rem;
 }
 
 h6 {
   color: #4988a1;
-  font-family: 'Luckiest Guy', cursive;
+  font-family: "Luckiest Guy", cursive;
   font-size: 1.6rem;
   border: 5px solid #595f63;
   text-decoration: none;
@@ -167,7 +167,7 @@ header {
 .menu {
   width: 100%;
   position: relative;
-  top: 0.5rem;
+  top: .5rem;
   display: block;
   text-align: center;
 }
@@ -195,13 +195,13 @@ header {
 }
 
 .frist {
-  margin: 0 1rem 0;
+  margin: 0 1rem;
   width: 16%;
   display: inline-block;
 }
 
 .plant {
-  margin: 0 3rem 0;
+  margin: 0 3rem;
   width: 16%;
   display: inline-block;
 }
@@ -215,37 +215,37 @@ header {
 .brownies {
   display: inline-block;
   width: 16%;
-  margin: 0 2rem 0;
+  margin: 0 2rem;
 }
 
 .lab {
   display: inline-block;
-  margin: 0 1rem 0;
+  margin: 0 1rem;
   width: 16%;
 }
 
 .fudge {
   display: inline-block;
   width: 16%;
-  margin: 0 2rem 0;
+  margin: 0 2rem;
 }
 
 .hawalil {
   display: inline-block;
   width: 16%;
-  margin: 0 2rem 0;
+  margin: 0 2rem;
 }
 
 .mud {
   display: inline-block;
   width: 16%;
-  margin: 0 1rem 0;
+  margin: 0 1rem;
 }
 
 .bar {
   display: inline-block;
   width: 16%;
-  margin: 0 2rem 0;
+  margin: 0 2rem;
 }
 
 section {
@@ -276,7 +276,7 @@ footer {
 }
 
 .here {
-  font-family: 'Freckle Face', cursive;
+  font-family: "Freckle Face", cursive;
   font-size: 1.2rem;
   background-color: #595f63;
   text-decoration: none;
@@ -287,7 +287,7 @@ footer {
 }
 
 .contact {
-  font-family: 'Freckle Face', cursive;
+  font-family: "Freckle Face", cursive;
   font-size: 1.2rem;
   background-color: #595f63;
   text-decoration: none;
@@ -298,7 +298,7 @@ footer {
 }
 
 .job {
-  font-family: 'Freckle Face', cursive;
+  font-family: "Freckle Face", cursive;
   font-size: 1.2rem;
   background-color: #595f63;
   text-decoration: none;
@@ -320,7 +320,7 @@ a:hover {
 }
 
 .about {
-  font-family: 'Ropa Sans', sans-serif;
+  font-family: "Ropa Sans", sans-serif;
   color: #595f63;
   text-align: center;
   background-color: #4988a1;
@@ -375,7 +375,7 @@ a:hover {
 
   .title {
     font-size: 3.5rem;
-    margin: 0.2rem;
+    margin: .2rem;
     text-align: center;
   }
 
@@ -533,7 +533,7 @@ a:hover {
 
   .title {
     font-size: 4rem;
-    margin: 0.2rem;
+    margin: .2rem;
     text-align: center;
   }
 
@@ -608,7 +608,6 @@ a:hover {
 
     font-size: 2rem;
   }
-
 
 }
 
@@ -688,9 +687,9 @@ a:hover {
     font-size: 130%;
   }
 
-img {
-  width: 70%;
-  display: inline-block;
-}
+  img {
+    width: 70%;
+    display: inline-block;
+  }
 
 }
