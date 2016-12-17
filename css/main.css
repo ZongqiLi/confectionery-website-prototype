@@ -41,7 +41,7 @@ article {
 
 .title {
   color: #dd925f;
-  font-family: 'Molle', cursive;
+  font-family: 'Freckle Face', cursive;
   font-size: 5rem;
   margin: 0.2rem;
   text-align: center;
@@ -76,30 +76,30 @@ article {
 
 figcaption {
   color: #73675f;
-  font-family: 'Lobster', cursive;
+  font-family: 'Luckiest Guy', cursive;
 }
 
 h3 {
   color: #4988a1;
-  font-family: 'Bungee', cursive;
+  font-family: 'Luckiest Guy', cursive;
   font-size: 1.5rem;
 }
 
 h4 {
   color: #4988a1;
-  font-family: 'Bungee', cursive;
+  font-family: 'Luckiest Guy', cursive;
   font-size: 1.5rem;
 }
 
 h5 {
   color: #4988a1;
-  font-family: 'Bungee', cursive;
+  font-family: 'Luckiest Guy', cursive;
   font-size: 1.5rem;
 }
 
 h6 {
   color: #4988a1;
-  font-family: 'Bungee', cursive;
+  font-family: 'Luckiest Guy', cursive;
   font-size: 1.6rem;
   border: 5px solid #595f63;
   text-decoration: none;
@@ -109,7 +109,7 @@ h6 {
 }
 
 h6:hover {
-  color:#595f63;
+  color: #595f63;
   background-color: #4988a1;
 
 }
@@ -175,7 +175,7 @@ header {
 .menu-button {
   font-family: "Permanent Marker", cursive;
   font-size: 1.5em;
-  position: absolute;;
+  position: absolute;
   display: inline-block;
   bottom: 0;
   right: 2.5em;
@@ -276,7 +276,7 @@ footer {
 }
 
 .here {
-  font-family: 'Righteous', cursive;
+  font-family: 'Luckiest Guy', cursive;
   font-size: 1.2rem;
   background-color: #595f63;
   text-decoration: none;
@@ -287,7 +287,7 @@ footer {
 }
 
 .contact {
-  font-family: 'Righteous', cursive;
+  font-family: 'Luckiest Guy', cursive;
   font-size: 1.2rem;
   background-color: #595f63;
   text-decoration: none;
@@ -298,9 +298,9 @@ footer {
 }
 
 .job {
-  font-family: 'Righteous', cursive;
+  font-family: 'Luckiest Guy', cursive;
   font-size: 1.2rem;
-  background-color: #595F63;
+  background-color: #595f63;
   text-decoration: none;
   border: 2px solid black;
   padding: 0;
@@ -379,7 +379,7 @@ a:hover {
     text-align: center;
   }
 
-  .intro{
+  .intro {
     margin: 8.5em;
   }
 
@@ -399,7 +399,7 @@ a:hover {
 
   .menu-button {
     font-size: 1.5em;
-    position: absolute;;
+    position: absolute;
     display: inline-block;
     bottom: 0;
     right: 3em;
@@ -481,7 +481,7 @@ a:hover {
 
   .here {
     font-size: 2rem;
-    background-color: #595F63;
+    background-color: #595f63;
     padding: .1em;
     color: red;
     border-radius: .5em;
@@ -515,7 +515,7 @@ a:hover {
     margin: 0 0 1.4rem;
   }
 
-  .intro{
+  .intro {
     margin: 3em;
   }
 
@@ -539,7 +539,7 @@ a:hover {
 
   .menu-button {
     font-size: 2.2em;
-    position: absolute;;
+    position: absolute;
     display: inline-block;
     bottom: 0;
     right: 4em;
@@ -625,7 +625,7 @@ a:hover {
   }
 
   img {
-    width: 80%
+    width: 80%;
   }
 
   .bottom {
