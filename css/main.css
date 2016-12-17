@@ -98,7 +98,7 @@ h5 {
 }
 
 h6 {
-  color: #4988a1;
+  color: #595f63;
   font-family: "Luckiest Guy", cursive;
   font-size: 1.6rem;
   border: 5px solid #595f63;
@@ -106,11 +106,12 @@ h6 {
   padding: 0;
   border-radius: .5em;
   text-align: center;
+  float: left;
 }
 
 h6:hover {
-  color: #595f63;
-  background-color: #4988a1;
+  color: white;
+  background-color: black;
 
 }
 
@@ -133,7 +134,7 @@ h6:hover {
   bottom: 7.5rem;
   color: white;
   font-family: "Ceviche One", cursive;
-  margin: 8.9em;
+  margin: 8em;
 }
 
 .intro:hover {
@@ -177,8 +178,7 @@ header {
   font-size: 1.5em;
   position: absolute;
   display: inline-block;
-  bottom: 0;
-  right: 2.5em;
+  right: 1.5em;
   text-decoration: none;
 }
 
@@ -402,7 +402,7 @@ a:hover {
     position: absolute;
     display: inline-block;
     bottom: 0;
-    right: 3em;
+    right: 2.5em;
     text-decoration: none;
   }
 
